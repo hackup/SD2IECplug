@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name DIN-Connectors)(type KiCad)(uri C:/Users/cg/ownCloud/Devel/Hardware/kicad-hackup/library/DIN-Connector.pretty)(options "")(descr ""))
+  (lib (name SD-Connectors)(type KiCad)(uri C:/Users/cg/ownCloud/Devel/Hardware/kicad-hackup/library/SD-Connector.pretty)(options "")(descr ""))
+  (lib (name hackup)(type KiCad)(uri C:/Users/cg/ownCloud/Devel/Hardware/kicad-hackup/library/hackup.pretty)(options "")(descr ""))
+)
