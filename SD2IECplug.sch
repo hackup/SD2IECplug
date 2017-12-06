@@ -1218,4 +1218,9 @@ Wire Wire Line
 	4900 5300 4800 5300
 Wire Wire Line
 	4800 5300 4800 5350
+Wire Wire Line
+	9100 3350 9100 3400
+Wire Wire Line
+	9100 3400 9200 3400
+Connection ~ 9200 3400
 $EndSCHEMATC
