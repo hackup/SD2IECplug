@@ -1182,4 +1182,15 @@ Wire Wire Line
 Connection ~ 4050 2700
 Wire Wire Line
 	4050 2700 4500 2700
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5B9F7C3B
+P 9750 6200
+F 0 "MH3" H 9850 6246 50  0000 L CNN
+F 1 "MountingHole" H 9850 6155 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 9750 6200 50  0001 C CNN
+F 3 "~" H 9750 6200 50  0001 C CNN
+	1    9750 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
