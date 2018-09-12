@@ -788,8 +788,6 @@ Wire Wire Line
 	3800 1800 3800 3100
 Connection ~ 4100 1450
 Wire Wire Line
-	4500 2700 3400 2700
-Wire Wire Line
 	3800 3100 3400 3100
 Wire Wire Line
 	5400 2800 3400 2800
@@ -1137,4 +1135,51 @@ F 3 "~" H 10500 6200 50  0001 C CNN
 	1    10500 6200
 	1    0    0    -1  
 $EndComp
+$Comp
+L conn:Conn_01x03 J3
+U 1 1 5B9BC1D8
+P 4450 3700
+F 0 "J3" H 4530 3742 50  0000 L CNN
+F 1 "Aux" H 4530 3651 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R16
+U 1 1 5B9BC306
+P 3750 3500
+F 0 "R16" V 3700 3300 50  0000 C CNN
+F 1 "nB" V 3750 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3680 3500 50  0001 C CNN
+F 3 "~" H 3750 3500 50  0001 C CNN
+	1    3750 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3800 3550 3800
+Wire Wire Line
+	3550 3800 3550 3500
+Wire Wire Line
+	3550 3500 3600 3500
+Wire Wire Line
+	3400 3600 4250 3600
+Wire Wire Line
+	3400 3700 4250 3700
+Wire Wire Line
+	3400 3900 3950 3900
+Wire Wire Line
+	3950 3900 3950 3800
+Wire Wire Line
+	3950 3800 4250 3800
+Wire Wire Line
+	3400 2700 4050 2700
+Wire Wire Line
+	4050 3500 4050 2700
+Wire Wire Line
+	3900 3500 4050 3500
+Connection ~ 4050 2700
+Wire Wire Line
+	4050 2700 4500 2700
 $EndSCHEMATC
