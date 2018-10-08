@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title "SD2IEC Pluggable")
-    (date 2018-09-12)
-    (rev 2.0)
+    (date 2018-10-08)
+    (rev 2.1)
     (company www.hackup.net)
   )
 
@@ -2304,7 +2304,7 @@
   (gr_arc (start 129.4 42.989) (end 129.4 41.989) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 130.4 53.354) (end 130.4 42.989) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 94 55.354) (end 92 55.354) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "SD2IEC Pluggable v2.0" (at 118.416 82.232) (layer F.SilkS)
+  (gr_text "SD2IEC Pluggable v2.1" (at 118.416 82.232) (layer F.SilkS)
     (effects (font (size 1.1 1.1) (thickness 0.22)))
   )
   (gr_line (start 58 140.078) (end 58 90.338) (angle 90) (layer Eco1.User) (width 0.2))
