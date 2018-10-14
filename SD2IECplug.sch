@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SD2IEC Pluggable"
-Date "2018-09-10"
-Rev "2.0"
+Date "2018-10-14"
+Rev "2.1"
 Comp "www.hackup.net"
 Comment1 ""
 Comment2 ""
@@ -30,7 +30,7 @@ L regul:LM1117-3.3 U2
 U 1 1 5A0DA894
 P 9850 2400
 F 0 "U2" H 9700 2525 50  0000 C CNN
-F 1 "LM1117-3.3" H 9850 2525 50  0000 L CNN
+F 1 "AMS1117-3.3" H 9850 2525 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 9850 2400 50  0001 C CNN
 F 3 "" H 9850 2400 50  0001 C CNN
 	1    9850 2400
@@ -544,10 +544,10 @@ F 3 "" H 4500 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D1
+L device:LED D2
 U 1 1 5A0E5986
 P 4200 4500
-F 0 "D1" H 4200 4600 50  0000 C CNN
+F 0 "D2" H 4200 4600 50  0000 C CNN
 F 1 "green" H 4350 4550 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 4200 4500 50  0001 C CNN
 F 3 "" H 4200 4500 50  0001 C CNN
@@ -555,10 +555,10 @@ F 3 "" H 4200 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D2
+L device:LED D1
 U 1 1 5A0E5A3A
 P 4950 4600
-F 0 "D2" H 4950 4700 50  0000 C CNN
+F 0 "D1" H 4950 4700 50  0000 C CNN
 F 1 "red" H 5100 4650 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 4950 4600 50  0001 C CNN
 F 3 "" H 4950 4600 50  0001 C CNN
