@@ -1,31 +1,50 @@
-Id;Designator;Package;Quantity;Designation;Supplier and ref
-1;J3;SD-Connector-Short;1;SD_Card;
-2;REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**;VIA-0.6mm;9;VIA-0.6mm;
-3;REF**,REF**,REF**,REF**,REF**;1pin;5;1pin;
-4;U1;TQFP-44_10x10mm_Pitch0.8mm;1;ATMEGA644-20AU;
-5;Q4,Q1,Q2,Q3;SOT-23_Handsoldering;4;IRLML2803;
-6;R12,R2,R6,R9;R_0805_HandSoldering;4;18;
-7;R13,R3,R7,R10;R_0805_HandSoldering;4;10k;
-8;R14,R4,R8,R11;R_0805_HandSoldering;4;22k;
-9;C1,C2;C_0805_HandSoldering;2;56p;
-10;C3,C4,C5;CP_Tantalum_Case-S_EIA-3216-12_Hand;3;10µ;
-11;C6;C_0805_HandSoldering;1;100n;
-12;D1;LED_0805_HandSoldering;1;green;
-13;D2;LED_0805_HandSoldering;1;red;
-14;J1;Pin_Header_Straight_2x03_Pitch2.54mm;1;ISP;
-15;J4;DIN-6;1;IEC;
-16;R1,R5;R_0805_HandSoldering;2;330;
-17;R15;R_0805_HandSoldering;1;2.2R;
-18;U2;SOT-223-3_TabPin2;1;LM1117-3.3;
-19;J5;C64-Cassette-Port-Female;1;C64-CassettePort;
-20;Y1;Crystal_HC49-4H_Vertical;1;8MHz;
-21;R16,R17,R21;C_0805_HandSoldering;3;10k;
-22;R18,R19;C_0805_HandSoldering;2;22k;
-23;R20;C_0805_HandSoldering;1;470;
-24;U3;SOP-4;1;PC817;
-25;J7;USB_Mini-B;1;USB_B;
-26;J6;C64-Cassette-Port-Male;1;C64-CassettePort;
-27;J8;Pin_Header_Straight_1x04_Pitch2.54mm;1;I2C;
-28;J9;Pin_Header_Straight_1x06_Pitch2.54mm;1;SW;
-29;J2;Pin_Header_Straight_1x04_Pitch2.54mm;1;LED;
-30;D3;D_MicroMELF_Hadsoldering;1;1N4148;
+Title,SD2IEC Pluggable
+Revision,2.1
+Date,2018-10-14
+Generated,15/10/2018 13:09:25
+Company,www.hackup.net
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,48
+Total Unique Parts,29
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,Manf,Manf#,
+C1 C2 ,2,56p,Capacitors_SMD:C_0805_HandSoldering,, , 
+C3 C4 C5 ,3,10µ,Capacitors_Tantalum_SMD:CP_Tantalum_Case-S_EIA-3216-12_Hand,, , 
+C6 ,1,100n,Capacitors_SMD:C_0805_HandSoldering,, , 
+C7 ,1,100n,Capacitors_SMD:C_0805_HandSoldering,~, , 
+D1 ,1,red,LEDs:LED_0805_HandSoldering,, , 
+D2 ,1,green,LEDs:LED_0805_HandSoldering,, , 
+D3 ,1,1N5817,Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal,, , 
+J1 ,1,ISP,Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm,, , 
+J2 ,1,X6,Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm,~, , 
+J3 ,1,Aux,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,~, , 
+J4 ,1,IEC,DIN-Connectors:DIN-6-Variable,, , 
+J5 ,1,C64-CassettePort,hackup:C64-Cassette-Port-Female,, , 
+J6 ,1,C64-CassettePort,hackup:C64-Cassette-Port-Male,, , 
+J7 ,1,Power,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,~, , 
+J8 ,1,X3,Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm,~, , 
+MH1 MH2 ,2,ZipTie,DIN-Connectors:ZipTie_3.0mm,~, , 
+MH3 MH4 ,2,MountingHole,Mounting_Holes:MountingHole_2.7mm_M2.5,~, , 
+Q1 Q2 Q3 Q4 ,4,BSS138,TO_SOT_Packages_SMD:SOT-23_Handsoldering,, , 
+R1 R5 ,2,330,Resistors_SMD:R_0805_HandSoldering,, , 
+R2 R6 R9 R12 ,4,18,Resistors_SMD:R_0805_HandSoldering,, , 
+R3 R7 R10 R13 ,4,10k,Resistors_SMD:R_0805_HandSoldering,, , 
+R4 R8 R11 R14 ,4,22k,Resistors_SMD:R_0805_HandSoldering,, , 
+R15 ,1,2.2R,Resistors_SMD:R_0805_HandSoldering,, , 
+R16 ,1,nB,Resistors_SMD:R_0805_HandSoldering,~, , 
+SW1 SW2 ,2,SW_Push,Buttons_Switches_SMD:SW_SPST_FSMSM,, , 
+U1 ,1,ATMEGA644-20AU,Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm,, , 
+U2 ,1,AMS1117-3.3,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , 
+XS1 ,1,SD Connector,lib:Conn_uSDcard,_,ebay,_
+Y1 ,1,8MHz,Crystals:Crystal_HC49-4H_Vertical,, , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated 15/10/2018 13:09:25
