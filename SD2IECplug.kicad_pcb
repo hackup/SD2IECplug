@@ -65,8 +65,8 @@
     (pad_size 2.2 10.5)
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 94 53.354)
-    (grid_origin 94 53.354)
+    (aux_axis_origin 118 53.354)
+    (grid_origin 118 53.354)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
@@ -2317,7 +2317,6 @@
   (gr_line (start 108.038 90.338) (end 108.038 140.122) (angle 90) (layer Eco1.User) (width 0.2) (tstamp 5B969275))
 
   (via (at 108.256 56.705) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 0))
-  (via (at 126.85 88.604) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 25))
   (via (at 108.764 70.548) (size 0.45) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 105.796 73.516) (end 105.796 76.528) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 108.764 70.548) (end 105.796 73.516) (width 0.2) (layer F.Cu) (net 1))
@@ -2670,6 +2669,7 @@
   (segment (start 124.585492 78.7) (end 124.630448 78.655044) (width 0.2) (layer B.Cu) (net 24))
   (segment (start 123.1 77.596) (end 123.575 77.596) (width 0.2) (layer F.Cu) (net 24))
   (via (at 124.630448 78.655044) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 24))
+  (via (at 126.85 88.604) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 25))
   (segment (start 120.915 64.498) (end 120.835 64.418) (width 0.4) (layer B.Cu) (net 25))
   (segment (start 123.295 64.498) (end 120.915 64.498) (width 0.4) (layer B.Cu) (net 25))
   (segment (start 120.915 70.132) (end 120.835 70.052) (width 0.4) (layer B.Cu) (net 25))

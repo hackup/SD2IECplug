@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
 LIBS:SD2IECplug-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SD2IEC Pluggable"
-Date "2018-10-14"
+Date "2019-12-18"
 Rev "2.1"
 Comp "www.hackup.net"
 Comment1 ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATMEGA644-20AU U1
+L SD2IECplug:ATMEGA644-20AU-atmel U1
 U 1 1 5A0DA765
 P 2400 4400
 F 0 "U1" H 1600 6300 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 2400 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:LM1117-3.3 U2
+L Regulator_Linear:LM1117-3.3 U2
 U 1 1 5A0DA894
 P 9850 2400
 F 0 "U2" H 9700 2525 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 9150 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L Device:C C6
 U 1 1 5A0DB3FB
 P 10450 2550
 F 0 "C6" H 10475 2650 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 2400 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:DIN-6 J4
+L Connector:DIN-6 J4
 U 1 1 5A0DB981
 P 10200 1200
 F 0 "J4" H 10325 1425 50  0000 C CNN
@@ -122,7 +122,7 @@ IEC_SQR
 Text GLabel 10200 1500 3    39   BiDi ~ 0
 IEC_ATN
 $Comp
-L device:Crystal Y1
+L Device:Crystal Y1
 U 1 1 5A0DC8F8
 P 1300 3300
 F 0 "Y1" H 1300 3450 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 1300 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5A0DCA05
 P 1000 3100
 F 0 "C1" H 1025 3200 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "" H 1000 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5A0DCA58
 P 1000 3500
 F 0 "C2" H 1025 3600 50  0000 L CNN
@@ -177,7 +177,7 @@ F 3 "" H 6700 1800 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5A0DEFAB
 P 6800 2150
 F 0 "R12" V 6880 2150 50  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 6800 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R14
+L Device:R R14
 U 1 1 5A0DF086
 P 7050 2150
 F 0 "R14" V 7130 2150 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 7050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R13
+L Device:R R13
 U 1 1 5A0DF0C9
 P 7050 1600
 F 0 "R13" V 7130 1600 50  0000 C CNN
@@ -234,7 +234,7 @@ F 3 "" H 5800 1800 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5A0DF9C8
 P 5900 2150
 F 0 "R9" V 5980 2150 50  0000 C CNN
@@ -245,7 +245,7 @@ F 3 "" H 5900 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 5A0DF9CE
 P 6150 2150
 F 0 "R11" V 6230 2150 50  0000 C CNN
@@ -256,7 +256,7 @@ F 3 "" H 6150 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5A0DF9D4
 P 6150 1600
 F 0 "R10" V 6230 1600 50  0000 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 4900 1800 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 5A0DFB40
 P 5000 2150
 F 0 "R6" V 5080 2150 50  0000 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 5000 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5A0DFB46
 P 5250 2150
 F 0 "R8" V 5330 2150 50  0000 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 5250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5A0DFB4C
 P 5250 1600
 F 0 "R7" V 5330 1600 50  0000 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 4000 1800 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5A0DFC58
 P 4100 2150
 F 0 "R2" V 4180 2150 50  0000 C CNN
@@ -359,7 +359,7 @@ F 3 "" H 4100 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5A0DFC5E
 P 4350 2150
 F 0 "R4" V 4430 2150 50  0000 C CNN
@@ -370,7 +370,7 @@ F 3 "" H 4350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5A0DFC64
 P 4350 1600
 F 0 "R3" V 4430 1600 50  0000 C CNN
@@ -400,7 +400,7 @@ MISO
 Text GLabel 3400 4300 2    39   Output ~ 0
 SCK
 $Comp
-L conn:Conn_02x03_Odd_Even J1
+L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5A0E128D
 P 1600 1300
 F 0 "J1" H 1650 1500 50  0000 C CNN
@@ -478,7 +478,7 @@ F 3 "" H 9400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C4
+L Device:CP C4
 U 1 1 5A0E450A
 P 9500 2550
 F 0 "C4" H 9525 2650 50  0000 L CNN
@@ -489,7 +489,7 @@ F 3 "" H 9500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C5
+L Device:CP C5
 U 1 1 5A0E45C6
 P 10200 2550
 F 0 "C5" H 10225 2650 50  0000 L CNN
@@ -511,7 +511,7 @@ F 3 "" H 9400 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C3
+L Device:CP C3
 U 1 1 5A0E4A68
 P 8450 3750
 F 0 "C3" H 8475 3850 50  0000 L CNN
@@ -522,7 +522,7 @@ F 3 "" H 8450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5A0E56B2
 P 3800 4500
 F 0 "R1" V 3880 4500 50  0000 C CNN
@@ -533,7 +533,7 @@ F 3 "" H 3800 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5A0E57F0
 P 4500 4600
 F 0 "R5" V 4580 4600 50  0000 C CNN
@@ -544,7 +544,7 @@ F 3 "" H 4500 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D2
+L Device:LED D2
 U 1 1 5A0E5986
 P 4200 4500
 F 0 "D2" H 4200 4600 50  0000 C CNN
@@ -555,7 +555,7 @@ F 3 "" H 4200 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D1
+L Device:LED D1
 U 1 1 5A0E5A3A
 P 4950 4600
 F 0 "D1" H 4950 4700 50  0000 C CNN
@@ -566,7 +566,7 @@ F 3 "" H 4950 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R15
+L Device:R R15
 U 1 1 5A0E7D80
 P 9400 3250
 F 0 "R15" V 9480 3250 50  0000 C CNN
@@ -577,7 +577,7 @@ F 3 "" H 9400 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hackup:C64-CassettePort J5
+L hackup-commodore:C64-CassettePort J5
 U 1 1 5A140900
 P 2400 7700
 F 0 "J5" H 2400 7700 60  0000 C CNN
@@ -612,7 +612,7 @@ Cas-Write
 Text GLabel 2900 7300 2    39   Input ~ 0
 Cas-Sense
 $Comp
-L hackup:C64-CassettePort J6
+L hackup-commodore:C64-CassettePort J6
 U 1 1 5A1416C4
 P 4300 7700
 F 0 "J6" H 4300 7700 60  0000 C CNN
@@ -865,17 +865,6 @@ Wire Wire Line
 	2400 6450 2400 6500
 Wire Wire Line
 	9500 2700 9850 2700
-$Comp
-L conn:Conn_01x02 J7
-U 1 1 5B978294
-P 8850 2600
-F 0 "J7" H 8770 2275 50  0000 C CNN
-F 1 "Power" H 8770 2366 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8850 2600 50  0001 C CNN
-F 3 "~" H 8850 2600 50  0001 C CNN
-	1    8850 2600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9050 2500 9050 2400
 Wire Wire Line
@@ -887,28 +876,6 @@ Wire Wire Line
 	9050 2700 9500 2700
 Connection ~ 9500 2700
 Connection ~ 10450 2400
-$Comp
-L conn:Conn_01x10 J8
-U 1 1 5B9D412C
-P 7150 4650
-F 0 "J8" H 7250 5050 50  0000 L CNN
-F 1 "X3" H 7250 4150 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7150 4650 50  0001 C CNN
-F 3 "~" H 7150 4650 50  0001 C CNN
-	1    7150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x05 J2
-U 1 1 5B9D4266
-P 5300 5150
-F 0 "J2" H 5450 4950 50  0000 C CNN
-F 1 "X6" H 5450 5350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 5300 5150 50  0001 C CNN
-F 3 "~" H 5300 5150 50  0001 C CNN
-	1    5300 5150
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	6950 5050 6850 5050
 Wire Wire Line
@@ -1136,18 +1103,7 @@ F 3 "~" H 10500 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J3
-U 1 1 5B9BC1D8
-P 4450 3700
-F 0 "J3" H 4530 3742 50  0000 L CNN
-F 1 "Aux" H 4530 3651 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4450 3700 50  0001 C CNN
-F 3 "~" H 4450 3700 50  0001 C CNN
-	1    4450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R16
+L Device:R R16
 U 1 1 5B9BC306
 P 3750 3500
 F 0 "R16" V 3700 3300 50  0000 C CNN
@@ -1205,7 +1161,7 @@ F 3 "~" H 9750 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L Device:C C7
 U 1 1 5BA17687
 P 1250 6300
 F 0 "C7" H 1365 6346 50  0000 L CNN
@@ -1275,4 +1231,48 @@ Wire Wire Line
 Connection ~ 8750 1500
 Wire Wire Line
 	8750 1500 8750 1550
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5B9BC1D8
+P 4450 3700
+F 0 "J3" H 4530 3742 50  0000 L CNN
+F 1 "Aux" H 4530 3651 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5B978294
+P 8850 2600
+F 0 "J7" H 8770 2275 50  0000 C CNN
+F 1 "Power" H 8770 2366 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8850 2600 50  0001 C CNN
+F 3 "~" H 8850 2600 50  0001 C CNN
+	1    8850 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J8
+U 1 1 5B9D412C
+P 7150 4650
+F 0 "J8" H 7250 5050 50  0000 L CNN
+F 1 "X3" H 7250 4150 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 7150 4650 50  0001 C CNN
+F 3 "~" H 7150 4650 50  0001 C CNN
+	1    7150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5B9D4266
+P 5300 5150
+F 0 "J2" H 5450 4950 50  0000 C CNN
+F 1 "X6" H 5450 5350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 5300 5150 50  0001 C CNN
+F 3 "~" H 5300 5150 50  0001 C CNN
+	1    5300 5150
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
