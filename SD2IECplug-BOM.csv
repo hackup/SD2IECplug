@@ -1,7 +1,7 @@
 Title,SD2IEC Pluggable
 Revision,2.1
-Date,2018-10-14
-Generated,15/10/2018 13:09:25
+Date,2019-12-18
+Generated,18/12/2019 10:01:49
 Company,www.hackup.net
 Comment 1,
 Comment 2,
@@ -47,4 +47,4 @@ Y1 ,1,8MHz,Crystals:Crystal_HC49-4H_Vertical,, ,
 
 
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated 15/10/2018 13:09:25
+Generated 18/12/2019 10:01:49
