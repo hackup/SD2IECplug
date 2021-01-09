@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:SD2IECplug-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SD2IEC Pluggable"
-Date "2019-12-18"
-Rev "2.1"
+Date "2021-01-09"
+Rev "2.2"
 Comp "www.hackup.net"
 Comment1 ""
 Comment2 ""
@@ -1034,13 +1033,11 @@ $EndComp
 Wire Wire Line
 	9400 3400 9400 3475
 Wire Wire Line
-	9400 4775 9400 4800
-Wire Wire Line
 	3400 5600 8700 5600
 Wire Wire Line
 	3400 4000 8875 4000
 Wire Wire Line
-	8450 3900 8450 4300
+	8450 3900 8450 4150
 Wire Wire Line
 	8450 4300 8875 4300
 Wire Wire Line
@@ -1054,15 +1051,6 @@ Wire Wire Line
 	8700 4600 8875 4600
 Wire Wire Line
 	8700 4600 8700 5600
-Wire Wire Line
-	8875 4150 8575 4150
-Wire Wire Line
-	8575 4150 8575 4800
-Wire Wire Line
-	8575 4800 9400 4800
-Connection ~ 9400 4800
-Wire Wire Line
-	9400 4800 9400 4850
 $Comp
 L power:GND #PWR0103
 U 1 1 5BA175F3
@@ -1275,4 +1263,19 @@ F 3 "~" H 5300 5150 50  0001 C CNN
 	1    5300 5150
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	9400 4775 9400 4800
+Wire Wire Line
+	9400 4800 8450 4800
+Wire Wire Line
+	8450 4800 8450 4300
+Connection ~ 9400 4800
+Wire Wire Line
+	9400 4800 9400 4850
+Connection ~ 8450 4300
+Wire Wire Line
+	8875 4150 8450 4150
+Connection ~ 8450 4150
+Wire Wire Line
+	8450 4150 8450 4300
 $EndSCHEMATC
